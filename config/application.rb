@@ -20,5 +20,12 @@ module Jamesbumbalough
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    # Make Rails 4 serve my assets - same as rails_12factor?
+    config.serve_static_assets = true
+
+    #Precompile CSS assets
+    config.assets.precompile += %w(*.css)
+
   end
 end
