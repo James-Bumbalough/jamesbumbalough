@@ -27,5 +27,8 @@ module Jamesbumbalough
     #Precompile CSS assets
     config.assets.precompile += %w(*.css)
 
+    #Precompile JS assets
+    config.assets.precompile += %w(*.js)
+
   end
 end
