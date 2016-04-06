@@ -401,7 +401,7 @@ footer .footer-below {
 /* header section */
 header {
   background-color: #005085;
-  background-image: image-url("header/background_image.jpg");
+  background-image: asset-url("header/background_image", image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

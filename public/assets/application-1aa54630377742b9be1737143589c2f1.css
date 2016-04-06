@@ -3186,7 +3186,7 @@ footer .footer-below {
 /* line 402, /home/pi/rails_projects/jamesbumbalough/app/assets/stylesheets/freelancer.min.css.scss */
 header {
   background-color: #005085;
-  background-image: url(/assets/header/background_image.jpg);
+  background-image: url(/header/background_image);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
