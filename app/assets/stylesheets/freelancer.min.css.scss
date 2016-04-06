@@ -603,11 +603,13 @@ header hr.star-light:after {
 #resume .skillset .rating .icons {
   width: 111px;
   height: 14px;
-  background: url(resume/star-grey.png) no-repeat;
+  background: image-url(resume/star-grey.png);
+  background-repeat: no-repeat;
 }
 #resume .skillset .rating .icons .icons-red {
   height: 14px;
-  background: url(resume/star-red.png) no-repeat;
+  background: url(resume/star-red.png);
+  background-repeat: no-repeat;
 }
 #resume .skillset .rating .icons .percent100 {
   width: 100%;
