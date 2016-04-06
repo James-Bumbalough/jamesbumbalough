@@ -58,12 +58,6 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 
-/* line 48, /home/pi/rails_projects/jamesbumbalough/app/assets/stylesheets/freelancer.min.css.scss */
-hr.star-light:after,
-hr.star-primary:after {
-  content: url(/images/\f005);
-}
-
 /* line 51, /home/pi/rails_projects/jamesbumbalough/app/assets/stylesheets/freelancer.min.css.scss */
 hr.star-light {
   border-color: white;
