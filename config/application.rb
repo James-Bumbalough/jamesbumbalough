@@ -24,6 +24,9 @@ module Jamesbumbalough
     # Make Rails 4 serve my assets - same as rails_12factor?
     config.serve_static_assets = true
 
+    #Precompile Images
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
     #Precompile CSS assets
     config.assets.precompile += %w(*.css)
 
