@@ -44,6 +44,10 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
+hr.star-light:after,
+hr.star-primary:after {
+  content: image-url("\f005");
+}
 hr.star-light {
   border-color: white;
 }
