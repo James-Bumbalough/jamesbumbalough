@@ -33,5 +33,7 @@ module Jamesbumbalough
     #Precompile JS assets
     config.assets.precompile += %w(*.js)
 
+    #Precompile Font Assets
+    config.assets.precompile += %w(*.eot *.svg *.ttf *.woff *.otf *.woff2)
   end
 end
