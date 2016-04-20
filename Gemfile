@@ -12,8 +12,13 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+# -------- LESS ------------------------
+# Added LESS for stylesheets
+# gem 'less-rails', '~> 2.7', '>= 2.7.1'
+# -------------------------------------
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -23,6 +28,11 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+# configure Rails to use LESS in the asset pipeline
+group :assets do
+  gem 'less'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

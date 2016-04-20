@@ -21,6 +21,9 @@ module Jamesbumbalough
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    # Update Asset Paths to include custom Fonts
+    config.assets.paths << Rails.root.join("app", "assets", "fonts")
+
     # Make Rails 4 serve my assets - same as rails_12factor?
     config.serve_static_assets = true
 

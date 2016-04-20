@@ -6,8 +6,6 @@
 	
 	$(document).ready(function(event) {
 		jQuery.easing.def = "easeInExpo";
-		setupForm();
-		setStartTimeNow();	
 
 		setTimeout(function(){
 			hulaDance(0);
