@@ -16,12 +16,12 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'yui-compressor', '~> 0.12.0'
 
 # JavaScript Engine from Chrome
-gem 'libv8', '3.16.14.5'
+#gem 'libv8', '3.16.14.5'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
+#gem 'therubyracer', platforms: :ruby
 
-gem 'twitter-bootstrap-rails'
+#gem 'twitter-bootstrap-rails'
 
 # Jacascript Engine for LESS conversion
 #gem 'therubyrhino', '~> 2.0', '>= 2.0.4'
@@ -29,8 +29,8 @@ gem 'twitter-bootstrap-rails'
 # -------- LESS ------------------------
 # Added LESS for stylesheets
 group :assets do
-  gem 'less'
-  gem 'less-rails', '~> 2.7.0'
+ #gem 'less'
+  #gem 'less-rails', '~> 2.7.0'
 end
 # -------------------------------------
 

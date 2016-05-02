@@ -31,13 +31,16 @@ module Jamesbumbalough
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
     #Precompile Less assets
-    config.assets.precompile += %w(*.less)
+    # config.assets.precompile += %w(*.less)
 
     #Precompile CSS assets
-    config.assets.precompile += %w(*.css)
+    #config.assets.precompile += %w(*.css)
 
     #Precompile JS assets
-    config.assets.precompile += %w(*.js)
+    #config.assets.precompile += %w(*.js)
+
+    config.assets.precompile = [ Proc.new{ |path| !File.extname(path).in?(['.js', '.css', '']) },
+                             /(?:\/|\\|\A)application\.(css|js)$/ ]
 
     #Precompile Font Assets
     config.assets.precompile += %w(*.eot *.svg *.ttf *.woff *.otf *.woff2)
