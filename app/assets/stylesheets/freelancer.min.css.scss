@@ -97,7 +97,6 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-
 @media (min-width: 768px) {
   .navbar-fixed-top {
     padding: 25px 0;
@@ -386,32 +385,35 @@ footer .footer-below {
   display: none;
 }
 /* -- My changes -- */
-.alert {
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #2c3e50;
-  color: #1c9ddb;
-  text-align: center;
-  margin-top: 110px;
-  margin-bottom: 0px;
-  border-radius: 0px;
-}
 #resume .skillset {
   width: 220px;
 }
 /* header section */
 header {
-  background-color: #005085;
-  background-image: image-url("header/background_image.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
+  background: #005085 image-url("header/background_image.jpg") no-repeat center center;
   background-size: cover;
 }
 header hr.star-light:after {
   background-color: #0f6193;
+  border-radius: 42px;
 }
 .clear-both {
   clear: both;
+}
+.floatRight {
+  float: right;
+}
+.floatLeft {
+  float: left;
+}
+.alert {
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #FF9900;
+  background-color: #2C3E50;
+  border-radius: 0px;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
@@ -475,6 +477,9 @@ header hr.star-light:after {
 #resume #work-experience .description .company-name-sub {
   font-weight: bold;
   padding: 0px 5px 0px 20px;
+}
+#resume #work-experience .description .position-title .role {
+  font-weight: bold;
 }
 #resume #work-experience .description::after {
   content: '';
@@ -585,6 +590,22 @@ header hr.star-light:after {
   background: linear-gradient(to top, #ffffff 10%, rgba(255, 255, 255, 0) 100%);
   pointer-events: none;
 }
+#resume #bbw-expsum .logo {
+  width: 100px;
+  height: 100px;
+}
+#resume #sogeti1-expsum .logo {
+  width: 77px;
+  height: 50px;
+}
+#resume #sogeti2-expsum .logo {
+  width: 77px;
+  height: 50px;
+}
+#resume #kmi-expsum .logo {
+  width: 51px;
+  height: 50px;
+}
 #resume .contracted {
   height: 155px;
 }
@@ -600,13 +621,14 @@ header hr.star-light:after {
 #resume .skillset .rating .icons {
   width: 111px;
   height: 14px;
-  background: image-url(resume/star-grey.png);
-  background-repeat: no-repeat;
+  background: image-url("resume/star-grey.png") no-repeat;
 }
 #resume .skillset .rating .icons .icons-red {
   height: 14px;
-  background: image-url(resume/star-red.png);
-  background-repeat: no-repeat;
+  background: image-url("resume/star-red.png") no-repeat;
+  -webkit-transition: width 1.5s;
+  /* Safari */
+  transition: width 1.5s;
 }
 #resume .skillset .rating .icons .percent100 {
   width: 100%;
@@ -616,6 +638,9 @@ header hr.star-light:after {
 }
 #resume .skillset .rating .icons .percent60 {
   width: 60%;
+}
+#resume .skillset .rating .icons .offscreen {
+  width: 0%;
 }
 #resume .other {
   padding: 5px;
@@ -646,31 +671,39 @@ header hr.star-light:after {
   .min-pad {
     padding: 10px 10px 0px 30px;
   }
-  #resume #work-experience .year {
-    font-size: 1em;
-  }
-  #resume #work-experience .description {
-    font-size: 15px;
-  }
   .alert {
     margin-top: 60px;
   }
+  #resume #work-experience .year {
+    width: 62px;
+  }
+  #resume #work-experience .description {
+    width: 230px;
+    margin-left: 15px;
+    float: none;
+  }
+  #resume #work-experience .description .position-title {
+    display: none;
+  }
+  #resume .experience-summary .experience-summary-header h4 {
+    font-size: 18px;
+  }
 }
-/* hide stuff while working  */
+/* hide stuff while working */
 /*
 .navbar-default .navbar-brand {
-	color: #2C3E50;
+  color: #2C3E50;
 }
 .intro-text {
-	visibility: hidden;
+  visibility: hidden;
 }
 header .container img {
-	visibility: hidden;
+  visibility: hidden;
 }
 #current-employee {
-	visibility: hidden;
+  visibility: hidden;
 }
 #resume .experience-summary .experience-summary-header .logo, #resume .experience-summary .experience-summary-header h4 {
-	visibility: hidden;
+  visibility: hidden;
 }
 */
