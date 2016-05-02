@@ -25,10 +25,13 @@ module Jamesbumbalough
     config.assets.paths << Rails.root.join("app", "assets", "fonts")
 
     # Make Rails 4 serve my assets - same as rails_12factor?
-    config.serve_static_assets = true
+    #config.serve_static_assets = true
 
     #Precompile Images
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+    #Precompile Less assets
+    config.assets.precompile += %w(*.less)
 
     #Precompile CSS assets
     config.assets.precompile += %w(*.css)
