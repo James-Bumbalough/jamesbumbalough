@@ -60,3 +60,8 @@ $(".experience-summary").each(function(){
         }
     });
 });
+
+// Resume Section - Animate stars 
+$(".icons-red").each(function(){
+   offscreen($(this), 10);  
+});
