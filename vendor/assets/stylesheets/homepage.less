@@ -1,0 +1,339 @@
+#resume .skillset {
+	width: 220px;
+}
+
+/* header section */
+header {
+	background: #005085 image-url("header/background_image.jpg") no-repeat center center; 
+	background-size: cover;
+	hr.star-light:after {
+		background-color: #0f6193;
+		border-radius: 42px;
+	}
+}
+
+.clear-both {
+	clear: both;
+}
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
+.alert {
+	margin: 100px 0px 0px 0px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: @brand-orange;
+	background-color: @brand-primary;
+	border-radius: 0px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color:  @brand-orange
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #FFFFFF; 
+}
+/* resume section */
+#resume {
+	h3 {
+		color: #fff;
+		background-color: @brand-primary;
+		padding: 5px 0px 5px 0px;
+		text-align: center;
+		border-radius: 7px;
+	}
+	h3::before {
+		content: "< ";
+		color: @brand-orange;
+	}
+	h3::after {
+		content: " >";
+		color: @brand-orange;
+	}
+	#work-experience {
+	    position: relative;
+	    padding: 2em 0 1em 0;
+	    list-style: none;
+	    li {
+    	    width: 100%;
+		    z-index: 2;
+		    position: relative;
+		    float: left;
+	    }
+		.year {
+		    width: 10%;
+		    background: #fff;
+		    padding: 10px 0px 0px 10px;
+		    font-size: 1.5em;
+		    font-weight: 700;
+		    display: inline-block;
+		}
+		.description {
+			width:90%;
+			display: inline-block;
+		    background: #eee;
+		    margin-bottom: 10px;
+		    position: relative;
+		    padding: 10px 10px 20px 10px;
+		    border-bottom: 1px solid #ddd;	
+		    font-size: 20px;	
+			.company-name {
+			    font-weight: bold;
+				padding: 0px 5px 0px 0px;
+			}
+			.company-name-sub {
+			    font-weight: bold;
+				padding: 0px 5px 0px 20px;
+			}			
+			.position-title {
+				.role {
+					font-weight: bold;
+				}
+			}		
+		}
+		.description::after {
+			content: '';
+			position: absolute;
+			top: 20px;
+			right: 0;
+			left: -16px;
+			height: 0;
+			width: 0;
+			border: solid transparent;
+			border-right-color: #eee;
+			border-width: 8px;
+			pointer-events: none;
+		}
+	}
+	#work-experience::before {
+	  width: 5px;
+	  height: 100%;
+	  position: absolute;
+	  left: 25px;
+	  top: 0;
+	  content: ' ';
+	  display: block;
+	  background: #ec7263;
+	  background: -moz-linear-gradient(top,  #ffffff 0%, #ec7263 7%, #ec7263 89%, #ffffff 100%);
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#ec7263), color-stop(89%,#ec7263), color-stop(100%,#ffffff));
+	  background: -webkit-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+	  background: -o-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+	  background: -ms-linear-gradient(top,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+	  background: linear-gradient(to bottom,  #ffffff 0%,#ec7263 7%,#ec7263 89%,#ffffff 100%);
+	  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );		
+	}
+	.experience-summary {
+		overflow: hidden;
+		position: relative;
+
+		.experience-summary-header {
+			background: #eee;
+		    position: relative;
+		    padding: 5px 10px 5px 20px;
+		    border-bottom: 1px solid #ddd;
+		    border-top: 2px solid #ddd;
+		    .logo {
+		    	display: inline-block;
+		    }
+		    h4 {
+		    	display: inline-block;
+		    	font-size: 25px;
+		    	padding-left: 10px;
+		    }
+		}
+	    .experience-points {
+	    	position: relative;
+	    	padding: 10px 0px 15px 0px;
+	    	ul {
+	    		li {
+	    			font-size: 18px;
+	    		}
+	    	}
+			.expandIcon {
+				float: right;
+				padding: 3px 15px 3px 15px;
+				margin: -10px 0px 0px 0px;
+				width: 110px;
+				color:  #FFF;
+				background-color: @brand-primary;
+				font-weight: bold;
+				text-decoration: none;
+				border-bottom: 1px solid #ddd;
+				border-left: 1px solid #ddd;
+				border-right: 1px solid #ddd;
+				cursor: pointer;
+				transition: all 0.3s ease-in-out;
+				border-radius: 0px 0px 7px 7px;
+			}	
+	    }
+		.technologies {
+			position: relative;
+			background-color: @brand-primary;
+			width: 100%;
+			text-align: left;
+			padding: 10px 0px 5px 10px;
+			margin: 0px 0px 40px 0px;
+			border: none;
+			h4 {
+				color: @brand-orange;
+				margin: 0px 0px 5px 0px;
+			}
+			ul {
+				color: white;
+				margin: 0px;
+				padding: 0px;
+				li {
+					text-decoration: none;
+					display: inline-block;
+					margin-left: 15px;
+				}
+			}
+		}
+	}
+	.experience-summary:focus .experience-points .expandIcon, .experience-summary:hover .experience-points .expandIcon {
+		background-color: @brand-primary;
+		color: @brand-orange;	
+	}	
+    .experience-summary:after {
+		position: absolute;
+		bottom: 0px;  
+		height: 40px;
+		width: 100%;
+		content: "";
+		background: linear-gradient(to top,
+		 rgba(255,255,255, 1) 10%, 
+		 rgba(255,255,255, 0) 100%
+		);
+		pointer-events: none;
+    }
+    #bbw-expsum .logo {
+    	width: 100px;
+    	height: 100px;
+    }	
+    #sogeti1-expsum .logo {
+    	width: 77px;
+    	height: 50px;
+    }	
+    #sogeti2-expsum .logo {
+    	width: 77px;
+    	height: 50px;
+    }
+    #kmi-expsum .logo {
+    	width: 51px;
+    	height: 50px;
+    }
+    .contracted {
+    	height: 155px;
+    }	
+	.experience-summary-footer {
+		border-bottom: 1px solid #ddd;
+	}
+	.skillset {
+		padding-bottom: 10px;
+		.skill {
+			clear: both;
+		}
+		.rating {
+			.icons {
+				width: 111px;
+	    		height: 14px;
+	    		background: image-url("resume/star-grey.png") no-repeat;
+				.icons-red {
+					height: 14px;
+					background: image-url("resume/star-red.png") no-repeat;
+					-webkit-transition: width 1.5s; /* Safari */
+    				transition: width 1.5s;
+				}
+				.percent100 {
+					width: 100%;
+				}
+				.percent80 {
+					width: 80%;
+				}
+				.percent60 {
+					width: 60%;
+				}	
+				.offscreen {
+					width: 0%;
+				}
+			}
+		}
+	}
+	.other {
+		padding: 5px;
+		background-color: #eee;
+		border-top: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+	}
+	.other li {
+		text-decoration: none;
+		display: inline-block;
+		padding: 0px 30px 0px 0px;
+	}
+}
+#portfolio {
+	h3 {
+		text-align: center;
+		margin: 30px 0px 40px 0px;
+		padding: 0 10% 0 10%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+}
+@media (max-width: 768px) {
+	.col-lg-4 {
+		clear: both;
+	}
+	.min-pad {
+		padding: 10px 10px 0px 30px;
+	}
+	.alert {
+		margin-top: 60px;
+	}
+	#resume {
+		#work-experience {
+			.year {
+				width:62px;
+			}
+			.description {
+				width: 230px;
+				margin-left: 15px;
+				float: none;
+				.position-title {
+					display: none;
+				}
+			}
+		}
+		.experience-summary .experience-summary-header h4 {
+			font-size: 18px;
+		}
+	}
+}
+
+/* hide stuff while working */
+/*
+.navbar-default .navbar-brand {
+	color: #2C3E50;
+}
+.intro-text {
+	visibility: hidden;
+}
+header .container img {
+	visibility: hidden;
+}
+#current-employee {
+	visibility: hidden;
+}
+#resume .experience-summary .experience-summary-header .logo, #resume .experience-summary .experience-summary-header h4 {
+	visibility: hidden;
+}
+*/
