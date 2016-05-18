@@ -680,7 +680,7 @@ header hr.star-light:after {
   #resume #work-experience .description {
     width: 230px;
     margin-left: 15px;
-    float: none;
+    float: none !important;
   }
   #resume #work-experience .description .position-title {
     display: none;
