@@ -3,6 +3,10 @@ Jamesbumbalough::Application.routes.draw do
   match '/create',  to: 'static_pages#create',  via: 'post'
     
   root  'static_pages#home'
+  match '/experience_hawaii',      to: 'experiences#experience_hawaii',      via: 'get'
+  match '/experience_fall_lookbook',      to: 'experiences#experience_fall_lookbook',      via: 'get'
+  match '/experience_santa_squad',      to: 'experiences#experience_santa_squad',      via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
