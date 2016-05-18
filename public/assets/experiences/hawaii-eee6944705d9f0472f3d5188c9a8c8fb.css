@@ -1,0 +1,254 @@
+:focus {
+	outline: none	
+}
+
+.noClick {
+	cursor: default;
+	text-decoration: none;	
+}
+
+.hideText {
+	position: absolute;
+	left: -1000px;
+}
+
+#Hawaii_Experience {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-top: 110px;
+}
+
+@media (max-width: 768px) {
+  #Hawaii_Experience {
+    margin-top: 60px;
+  }
+}
+
+#Hawaii_Experience img, .image_pane a h1 img,  .image_pane a h2 img{
+	padding: 0px;
+	border: 0px;
+	display: block;
+}
+
+#Hawaii_Experience h1, #Hawaii_Experience h2 {
+	padding: 0px;
+	margin: 0px;	
+	font-size: 0px;
+}
+
+#Hawaii_Experience .icon {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#Hawaii_Experience #infoIcon, {
+	outline: 0;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	padding: 0px;
+	-webkit-appearance:none;
+	-moz-appearance: none;
+}
+
+#Hawaii_Experience #hula_anim_container {
+	position: relative;
+	overflow: hidden;
+}
+
+#Hawaii_Experience #hula_girl {
+	width: 366px;
+	height: 528px;
+	display: block;
+	position: absolute;
+	top: 109px;
+	left: 344px;
+    -webkit-transition: .8s ease-in-out;
+    -moz-transition: .8s ease-in-out;
+    -o-transition: .8s ease-in-out;
+    transition: .8s ease-in-out;	
+}
+
+#Hawaii_Experience #hula_girl_legs {
+	width: 366px;
+	height: 172px;
+	display: block;
+	position: absolute;
+	top: 459px;
+	left: 344px;
+}
+
+#Hawaii_Experience .dance_right {
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);	
+}
+
+#Hawaii_Experience .dance_left {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    transform: rotate(-5deg)	
+}
+
+#Hawaii_Experience .gif_area {
+	width: 640px;
+	height: 967px;
+	position: relative;
+	display: block;
+	background-size: cover;
+}
+
+#Hawaii_Experience #gif_area_01 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_04.jpg);
+}
+
+#Hawaii_Experience #gif_area_02 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_05.jpg);
+}
+
+#Hawaii_Experience #gif_area_03 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_06.jpg);
+}
+
+#Hawaii_Experience #gif_area_04 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_07.jpg);
+}
+
+#Hawaii_Experience #gif_area_05 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_08.jpg);
+}
+
+#Hawaii_Experience .gif_text {
+	display: block;
+	position: relative;
+}
+
+#Hawaii_Experience .gif_player {
+	width: 590px;
+	height: 590px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+#Hawaii_Experience .gif_player .playGifBTN {
+	width: 590px;
+	height: 590px;
+	padding: 0px;
+}
+
+#Hawaii_Experience #experience-view .gif_area .gif_player .playGifBTN .play_button {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 220px;
+	left: 220px;
+	display: none;	
+}
+
+#Hawaii_Experience .BTN {
+	cursor: pointer;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+	background-color: transparent;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;		
+}
+
+#Hawaii_Experience .shareBTN {
+	width: 183px;
+	height: 62px;
+	display: block;
+	position: relative;
+	margin: 25px auto 0px auto;
+}
+
+#Hawaii_Experience .shareBTN:focus, #Hawaii_Experience .shareBTN:hover, #Hawaii_Experience .ctaBTN:focus, #Hawaii_Experience .ctaBTN:hover, #Hawaii_Experience .InstaBTN:focus, #Hawaii_Experience .InstaBTN:hover {
+	background-position: 0 100%;
+}
+
+#Hawaii_Experience #shareBTN01 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_share_btn_01.png);
+}
+
+#Hawaii_Experience #shareBTN02 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_share_btn_02.png);
+}
+
+#Hawaii_Experience #shareBTN03 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_share_btn_03.png);
+}
+
+#Hawaii_Experience #shareBTN04 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_share_btn_04.png);
+}
+
+#Hawaii_Experience #shareBTN05 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_share_btn_05.png);
+}
+
+#Hawaii_Experience #CTA_area {
+	width: 640px;
+	height: 164px;
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_bg_10.jpg);
+	background-size: cover;	
+	position: relative;
+}
+
+#Hawaii_Experience .ctaBTN {
+	width: 333px;
+	height: 70px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 40px auto 0px auto;
+}
+
+#Hawaii_Experience #ctaBTN {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_shop_btn_01.png);
+}
+
+#Hawaii_Experience #ctaFlower {
+	width: 74px;
+	height: 75px;
+	display:  block;
+	position: absolute;
+	top: 65px;
+	left: 448px;
+}
+
+#Hawaii_Experience .InstaBTN {
+	width: 640px;
+	height: 700px;
+	display: block;
+}
+
+#Hawaii_Experience #InstaBTN {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/hawaii_mobile/hawaii_mobile_instagram_btn_01.jpg);
+}

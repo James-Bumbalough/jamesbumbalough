@@ -1,0 +1,731 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700);
+
+.breadcrumbs {
+	display: none;	
+}
+
+:focus {
+	outline: none	
+}
+
+#Mobile_Fall_Lookbook {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-top: 110px;
+}
+
+#experience-view, #signup-view {
+	overflow: hidden;
+}
+
+#Lookbook_Fall, #Lookbook_HP, #Lookbook_Pumpkin, #Lookbook_Apple, #Lookbook_Halloween, #Lookbook_Harvest {
+	max-width: 640px;
+}
+
+.hpmenu_btn_container {
+	width: 640px;
+	height: 145px;
+}
+
+.hpmenu_btn {
+	display: block;
+	position: relative;
+	width: 420px;
+	top: 45px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0px auto 0px auto;
+	border: 2px solid white;	
+	font-family: "trade_gothic_lt_stdregular","TradeGothicLTStd-Light", 'Roboto', Arial,sans-serif;
+	font-size: 33px;
+	color: #FFF !important;
+	text-decoration: none;
+	text-align: center;
+}
+
+.hpmenu_btn:focus {
+	color: #000 !important;
+	background-color:#FFF;
+	border-color: #000;
+}
+
+.ctaArea {
+	background-color:#FFF;
+	height:100px; 
+	width:640px;
+	margin: 45px auto;
+}
+
+.cta_btn {
+	display: block;
+	position: absolute;
+	max-width: 400px;
+	height: 45px;
+	padding-top: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid #000;	
+	font-family: "trade_gothic_lt_stdregular","TradeGothicLTStd-Light", 'Roboto', Arial,sans-serif;
+	font-size: 26px;
+	color: #000 !important;
+	text-decoration: none;
+	text-align: center;	
+}
+
+.cta_btn:focus {
+	color: #FFF !important;
+	background-color:#000;
+	border-color: #FFF;
+}
+
+#SigCTA, .sigCTA {
+	width: 400px;
+}
+
+#PumpkinCTA, .pumpkinCTA {
+	width: 355px;	
+}
+
+#AppleCTA, .appleCTA {
+	width: 266px;	
+}
+
+#HalloweenCTA, .halloweenCTA {
+	width: 355px;	
+}
+
+#HomeFragCTA, .homeFragCTA {
+	width: 355px;	
+}
+
+/* -- influencer cta -- */
+.cta_button {
+	display: block;
+	width: 295px;
+	margin: 0px auto 0px auto;
+	text-align: center;
+}
+
+#hpmenu_traditions {
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Lookbook_HP_02.jpg") left top / cover no-repeat transparent;
+}
+#hpmenu_pumpkin {
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Lookbook_HP_03.jpg") left top / cover no-repeat transparent;
+}
+#hpmenu_apple {
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Lookbook_HP_04.jpg") left top / cover no-repeat transparent;
+}
+#hpmenu_halloween {
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Lookbook_HP_05.jpg") left top / cover no-repeat transparent;
+}
+#hpmenu_collection {
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Lookbook_HP_06.jpg") left top / cover no-repeat transparent;
+}
+
+#Mobile_Fall_Lookbook img {
+	padding: 0px;
+	border: 0px;
+	display: block;
+}
+
+.Lookbook_page[aria-hidden="true"], #Lookbook_topmenu[aria-hidden="true"], .hidden {
+	display: none;	
+}
+
+.Lookbook_page[aria-hidden="false"], #Lookbook_topmenu[aria-hidden="false"], .active {
+	display: block;	
+}
+
+#hamburger_menu_button button:focus .hamburger_icon, #Lookbook_topmenu_xbutton button:focus .X_icon, .influencer_instagram_button a:focus .influencer_instagram_icon, .influencer_pinterest_button a:focus .influencer_pinterest_icon{
+  background-position: left bottom;
+  outline: none;
+}
+
+.icon {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#hamburger_menu_button {
+	position: fixed;
+	top: 125px;
+	left: 10px;
+	z-index:888;
+}
+
+.hamburger_icon {
+  height: 35px;
+  width: 50px;
+  background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/hamburger_menu_sprite.png") left top / cover no-repeat transparent;
+}
+
+#Lookbook_topmenu_xbutton {
+	float: right;
+	height: 25px;
+	width: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.X_icon {
+  height: 25px;
+  width: 25px;
+  background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/topmenu_btn_X_sprite.png") left top / cover no-repeat transparent;
+}
+
+#Lookbook_topmenu {
+	background-color: #666;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: -640px;
+	top: 110px;
+	z-index:999;
+}
+
+.menuTransition {
+	-webkit-transition: left 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-moz-transition: left 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	-o-transition: left 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+	transition: left 500ms cubic-bezier(1.000, 0.000, 0.000, 1.000);
+}
+
+.influencerTransition {
+	-webkit-transition: left 500ms linear;
+	-moz-transition: left 500ms linear;
+	-o-transition: left 500ms linear;
+	transition: left 500ms linear;
+}
+
+.open {
+	left: 0px !important;	
+}
+
+#Lookbook_topmenu_xbutton button, #hamburger_menu_button button, #infoIcon, #LogInHere, #SignUpHere, #Influencer_btnHolder button, #Influencer_left_btn, #Influencer_right_btn, #play_pause_btn {
+	outline: 0;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	padding: 0px;
+	-webkit-appearance:none;
+	-moz-appearance: none;
+}
+
+.Lookbook_topmenu_button a{
+	text-decoration: none;
+	color: #FFF;
+	font-family:'tradegothicltcom-bd2', 'Roboto', sans-serif; 
+	font-size: 30px;
+}
+
+.Lookbook_topmenu_button a:focus{
+	color: #fb6304;
+	outline: none;
+}
+
+#Lookbook_btnContainer {
+	max-width: 430px;
+}
+
+#topmenu_title {
+	clear: both;
+	padding-top: 5px;
+	display: block;
+	text-align: center;
+}
+
+#topmenu_title_text {
+	border-bottom: 3px solid #FFFFFF;
+	font-family:'tradegothicltcom-bd2', 'Roboto', sans-serif;
+	font-size: 40px;
+	color: #FFF;	
+}
+
+#topmenu_nav {
+  list-style-type: none;
+  text-align: center; 
+  padding: 0px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#Lookbook_HP_Slideshow {
+	width: 640px;
+	height: 400px;
+	display: block;
+	background-color: #FFF;
+}
+
+.slide_image {
+	position: absolute;
+	display: none;
+	width: 640px;
+	height: 400px;
+}
+
+/* -- Sign Up Page -- */
+
+#FL_input_area {
+	width: 550px;
+	height: 130px;
+	margin-top: 120px;
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+
+#firstlookForm input[type=text] {
+	width: 320px;
+	height: 60px;
+	font-size: 18px;
+	padding: 0px 0px 0px 10px;
+	 -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+#firstlookForm input[type=submit] {
+	height: 60px;
+	width: 130px;
+	font-size: 16px;
+	margin-left: 10px;
+	background-color: #3fcf13;
+	border: 2px solid #3fcf13;
+	color: #FFFFFF;
+	text-align: center;
+	 -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+#firstlookForm input[type=submit]:focus {
+	background-color: #37941a;
+	border: 2px solid #37941a;
+}
+
+#signup-view .form-container {
+	width: 640px;
+	height: 1126px;
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/fl_m_lookbook_login_01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+
+#Checkbox_Container {
+	width: 520px;
+	height: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+
+#FL_check1 {
+	-moz-appearance: none;
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin: 3px 10px 3px 4px;
+}
+
+#FL_check1:focus {
+	border: 1px solid black !important;
+}
+
+#FL_check1_label {
+	font-size: 18px;
+	color: #FFFFFF;	
+}
+
+
+#FL_signup_text {
+	width: 640px;
+	height: 275px;
+	padding-top: 240px;
+}
+
+
+#FL_thankyou_text {
+	width: 640px;
+	height: 341px;
+	padding-top: 200px;
+}
+
+#CTA_button_container {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.thankyou-message {
+	display: none;	
+}
+
+#FL_signup_bottom_text {
+	width: 76%;
+	text-align: center;
+	margin: 30px auto 20px auto;
+	font-size: 20px;
+}
+
+
+#FL_form_switcher_signin .form_switcher_image_container {
+	width: 80%;
+	margin-top: 20px;
+}
+
+#FL_form_switcher_signup .form_switcher_image_container {
+	width: 89%;
+	margin-top: 34px;
+}
+
+.float_left {
+	float:left;
+}
+
+#FL_dont_have_account {
+	max-width: 407px;
+}
+
+#FL_have_account {
+	max-width: 350px;
+}
+
+/* -- Tool Tip -- */
+#Mobile_Fall_Lookbook #i-rollover-container {
+	float:left;
+	height: 50px;
+	width: 50px;	
+}
+
+#Mobile_Fall_Lookbook #infoIcon {
+	width: 38px;
+	height: 38px;
+	position: relative;
+	overflow: visible;
+}
+
+.infoIcon_icon {
+	height: 38px;
+	width: 38px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/login_info_01.png") left top / cover no-repeat transparent;
+}
+
+#Mobile_Fall_Lookbook #infoIcon:focus .infoIcon_icon {
+  background-position: left bottom;
+  outline: none;
+}
+	
+#Mobile_Fall_Lookbook #infoIcon .toolTip {
+	z-index: 998;
+	top: -275px;
+	right: 4px;
+	width: 230px;
+	height: 230px;
+	padding: 0;
+	display: none;
+	position: relative;
+	font-family: "trade_gothic_lt_stdregular","TradeGothicLTStd-Light",Arial,sans-serif;
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+	border: solid 1px #e5e5e5;
+	background-color: white;
+}
+
+#Mobile_Fall_Lookbook #infoIcon .toolTip .tooltip-arrow {
+	width: 21px;
+	height: 11px;
+	float: left;
+	margin-left: 11px;
+	line-height: 0px;
+}
+
+#Mobile_Fall_Lookbook #infoIcon .toolTip .wrapper {
+	padding: 17px;
+}
+#Mobile_Fall_Lookbook #infoIcon .toolTip .corporate {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #333;
+}
+#Mobile_Fall_Lookbook #infoIcon .toolTip .corporateadd {
+	font-size: 14px;
+	padding: 0;
+	line-height: 18px;
+	margin: 0;
+}
+#Mobile_Fall_Lookbook #infoIcon .toolTip .withdraw {
+	font-size: 14px;
+	padding: 0;
+	margin: 5px 0 0 1px;
+}
+#Mobile_Fall_Lookbook #infoIcon .toolTip .contact {
+	padding: 0;
+	font-size: 14px;
+	line-height: 36px;
+	text-decoration: underline;
+	margin: 0;
+}
+
+#Login_Container, #Signup_Container {
+	text-align: center;
+	clear: both;
+}
+
+#Signup_Container {
+	margin-top: -20px;
+	clear: both;
+}
+
+
+.signin_text {
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	font-size: 23px;
+	color: #fce037;
+}
+
+.signin_text2 {
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	font-size: 21px;
+	color: #fce037;
+}
+
+#Welcome_Back_Text {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+	color:#FFF;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+#LogInHere, #SignUpHere {
+	font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+	margin-left: 5px;
+	border-bottom: 1px solid #fce037;
+}
+
+#LogInHere {
+	margin-top: 30px;
+	width: 145px;
+}
+
+#SignUpHere {
+	margin-top: -15px;
+	width: 145px;
+}
+
+#Have_Account{
+	width: 485px;
+}
+
+#Dont_Have_Account{
+	width: 470px;
+}
+
+#LogInHere:focus, #SignUpHere:focus {
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+.bademail::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.imageHeading, .slide_image h1 {
+	margin: 0px;
+	padding: 0px;	
+}
+
+#Lookbook_Influencer_Slideshow {
+	width: 640px;
+	height: 416px;
+	display: block;
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.Influencer_slide {
+	position: absolute;
+	display: block;
+	width: 640px;
+	height: 416px;
+}
+
+.slide_brn_container {
+	position: absolute;
+	display: block;
+	top: 290px;
+	left: 45px;
+}
+
+.explore_btn_cta {
+	display: block;
+	width: 290px;
+	border: 2px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF !important;
+	font-family:'tradegothicltcom-bd2', 'Roboto', sans-serif; 
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.explore_btn_cta:focus {
+	background-color: #FFF;
+	color: #000 !important;
+	border-color: #000;
+}
+
+#Influencer_btnHolder {
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 390px;
+	z-index: 10;
+}
+
+#play_pause_btn {
+	display:inline-block;
+	vertical-align: top;
+	height: 18px;
+	width: 19px;	
+	margin-left: 5px;
+}
+
+.play_pause_btn_icon {
+	height: 18px;
+	width: 19px;	
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Influencer_play_3.png") left 25% / cover no-repeat transparent;
+}
+
+#Influencer_left_btn {
+	width: 21px;
+	height: 50px;
+	position: absolute;
+	top: 180px;
+	left: 10px;	
+}
+
+#Influencer_right_btn {
+	width: 21px;
+	height: 50px;	
+	position: absolute;
+	top: 180px;
+	left: 595px;	
+}
+
+.Influencer_left_btn_icon {
+	width: 21px;
+	height: 50px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Influencer_left.png") transparent;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+.Influencer_right_btn_icon {
+	width: 21px;
+	height: 50px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/Influencer_right.png") transparent;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;	
+}
+
+#Influencer_left_btn:focus .Influencer_left_btn_icon, #Influencer_right_btn:focus .Influencer_right_btn_icon {
+  background-position: 0% 100%;	
+}
+
+.indicator-play {
+  background-position: top left;
+  outline: none;	
+}
+
+.indicator-pause {
+  background-position: 0% 33%;
+  outline: none;	
+}
+
+.meatball_btn {
+	height: 14px;
+	width: 14px;	
+	margin: 2px 5px;
+}
+
+.meatball_btn_icon {
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-color: #FFF;
+ 	-webkit-border-radius: 50%; 
+	-moz-border-radius: 50%; 
+	border-radius: 50%;
+}
+
+#Influencer_btnHolder button:focus .meatball_btn_icon {
+	background-color: #fb6304 !important;
+}
+
+.influencer_instagram_button {
+	position: absolute;
+	left: 120px;
+	top: 345px;
+}
+
+.influencer_instagram_icon {
+	height: 56px;
+	width: 55px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/instagram_icon.png") left top / cover no-repeat transparent;
+}
+
+.influencer_pinterest_button {
+	position: absolute;
+	left: 190px;
+	top: 345px;
+}
+
+.influencer_pinterest_icon {
+	height: 56px;
+	width: 55px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/pinterest_icon.png") left top / cover no-repeat transparent;
+}
+
+@media (max-width: 768px) {
+  #Mobile_Fall_Lookbook {
+    margin-top: 60px;
+  }
+
+  #hamburger_menu_button {
+  	top: 75px;
+  }
+
+  #Lookbook_topmenu {
+  	top: 55px;
+  }
+}
