@@ -1,0 +1,171 @@
+:focus {
+	outline: none	
+}
+
+#Santa_Squad_Experience {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 110px;
+	overflow: hidden;
+}
+
+
+#Santa_Squad_Experience img {
+	padding: 0px;
+	border: 0px;
+	display: block;
+}
+
+.image_pane {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	border: 0px	
+}
+
+.pxSpacer {
+	height: 10px;
+	display: block;
+}
+
+.BTN {
+	cursor: pointer;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+	background-color: transparent;
+}
+
+#tweetBTN01 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_01.png);
+}
+
+#tweetBTN02 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_02.png);
+}
+
+#tweetBTN03 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_03.png);
+}
+
+#tweetBTN04 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_04.png);
+}
+
+#tweetBTN05 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_05.png);
+}
+
+#tweetBTN06 {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/tweetBTN_06.png);
+}
+
+
+#enterNowBTN{
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/enterNowBTN.png);
+	display: block;
+	width: 209px;
+	height: 57px;
+	position: relative;
+	top: -410px;
+	left: 213px;
+	margin-top: -57px;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;			
+}
+
+#shopNowBTN{
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/shopNowBTN.png);
+	display: block;
+	width: 209px;
+	height: 60px;
+	position: relative;
+	top: -49px;
+	left: 215px;
+	margin-top: -60px;	
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;			
+}
+
+.tweetBTN {
+	width: 184px;
+	height: 58px;
+	float: left;
+	position: relative;
+	top: -69px;
+	left: 62px;
+	margin-top: -58px;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;		
+}
+
+.tweetBTN:focus, .tweetBTN:hover, #enterNowBTN:focus, #enterNowBTN:hover, #shopNowBTN:focus, #shopNowBTN:hover {
+	background-position: 0 100%;
+}
+
+#Santa_Squad_Experience h1, #Santa_Squad_Experience h2 {
+	margin: 0px;	
+}
+
+.sprite_player {
+	position: relative;
+	width: 640px;
+	height: 640px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.sprite_player a {
+	cursor: default;	
+}
+
+.sprite_animation {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+}
+
+.sprite_player .pause-button {
+	display: none;
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2015/mobile_santa_squad/playpausereplay.png);
+	width: 640px;
+	height: 641px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+	background-size: 100% 300%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;	
+}
+
+.sprite_player .pause-button.paused {
+	background-position: 0 50%;
+}
+
+.sprite_player .pause-button.replay {
+	background-position: 0 100%;
+}
+
+.sprite_player .pause-button.hidden {
+	background-position: 0 200%;
+}
+
+@media (max-width: 768px) {
+  #Santa_Squad_Experience {
+    margin-top: 60px;
+  }
+}
