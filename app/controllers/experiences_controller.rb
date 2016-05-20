@@ -8,5 +8,14 @@ class ExperiencesController < ApplicationController
 
   def experience_santa_squad
   end
+
+  def experience_happy_spring_login
+  end
+
+  def experience_happy_spring
+  end
+
+  def experience_happy_mobile
+  end
   
 end

@@ -85,6 +85,18 @@
     <%= javascript_include_tag "experiences/responsive.min", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "experiences/santa_squad_experience", "data-turbolinks-track" => false %>
   <% end %>
+  <% if params[:action] == "experience_happy_spring_login" && params[:controller] == "experiences" %>
+    <!-- Happy Spring Login -->
+    <%= javascript_include_tag "experiences/happy_spring_experience", "data-turbolinks-track" => false %>
+  <% end %>
+  <% if params[:action] == "experience_happy_spring" && params[:controller] == "experiences" %>
+    <!-- Happy Spring Experience -->
+    <%= javascript_include_tag "experiences/happy_spring_experience", "data-turbolinks-track" => false %>
+  <% end %>
+  <% if params[:action] == "experience_happy_spring_mobile" && params[:controller] == "experiences" %>
+    <!-- Happy Spring Mobile -->
+    <%= javascript_include_tag "experiences/happy_spring_mobile_experience", "data-turbolinks-track" => false %>
+  <% end %>  
 
   <!-- google analytics tracking -->
   <script>

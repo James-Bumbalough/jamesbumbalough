@@ -1,0 +1,330 @@
+@charset "utf-8";
+
+/* -- Default stylings -- */
+
+.breadcrumbs {
+	display: none;	
+}
+
+:focus {
+	outline: none	
+}
+
+.noClick {
+	cursor: default;
+	text-decoration: none;	
+}
+
+#Mobile_Evergreen {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	margin-top: 110px;
+}
+
+#experience-view {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.image_pane, .image_pane a h1 img,  .image_pane a h2 img  {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	border: 0px	
+	display: block;
+	font-size: 0px;
+}
+
+ #Mobile_Evergreen h1, #Mobile_Evergreen h2 {
+ 	padding: 0px;
+	margin: 0px;
+ }
+
+.icon {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;white-space: nowrap;
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#infoIcon, {
+	outline: 0;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	padding: 0px;
+	-webkit-appearance:none;
+	-moz-appearance: none;
+}
+
+.BTN {
+	cursor: pointer;	
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+	background-color: transparent;
+	background-size: 100% 200%;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;		
+}
+
+.ctaBTN:focus, .ctaBTN:hover, .momBTN:focus, .momBTN:hover, .InstaBTN:focus, .InstaBTN:hover {
+	background-position: 0 100%;
+}
+
+.ctaBTN {
+	width: 56.666%;
+	height: 7.9866%;
+	display: block;
+	position: absolute;
+	top: 85.578%;
+	left: 21%;
+}
+
+#ctaBTN {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/happy_spring/mobile/HappySpring_Mobile_BTN_01.jpg);	
+}
+
+.momBTN {
+	width: 30%;
+	height: 6.769%;
+	display: block;
+	position: absolute;
+	top: 86.923%;
+	left: 35%;
+}
+
+#momBTN {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/happy_spring/mobile/HappySpring_Mobile_BTN_02.jpg);	
+}
+
+.InstaBTN {
+	width: 600px;
+	height: 158px;
+	display: block;
+}
+
+#InstaBTN {
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/happy_spring/mobile/HappySpring_Mobile_BTN_03.jpg);
+}
+
+/* -- Sign Up Page -- */
+
+#FL_input_area {
+	position: relative;
+	width: 550px;
+	height: 130px;
+	margin-top: 40px;
+	margin-left: 45px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+
+#firstlookForm #Email_Input {
+	position: relative;
+	width: 320px;
+	height: 60px;
+	font-size: 18px;
+	padding: 0px 0px 0px 10px;
+	 -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+#Email_Input_label {
+	position: absolute;
+	width: 500px;
+	top: 67px;
+	left: 58px;
+	font-family: "trade_gothic_lt_stdregular","TradeGothicLTStd-Light",Arial,sans-serif;
+	font-size: 18px; 
+	font-weigt: bold;
+	color:#000000;
+	cursor: text;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#firstlookForm input[type=submit] {
+	height: 60px;
+	width: 130px;
+	font-size: 16px;
+	margin-left: 10px;
+	background-color: #000000;
+	border: 2px solid #000000;
+	color: #FFFFFF;
+	text-align: center;
+	 -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
+#firstlookForm input[type=submit]:focus {
+	background-color: #666666;
+	border: 2px solid #666666;
+}
+
+#signup-view .form-container {
+	width: 640px;
+	height: 889px;
+	background-image: url(http://bbw.imageg.net/graphics/media/bbw/experience/2016/happy_spring/mobile/HS_login_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; 
+}
+
+
+#Checkbox_Container {
+	width: 520px;
+	height: 50px;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+
+#FL_check1 {
+	height: 45px;
+	width: 45px;
+	float: left;
+	margin: 0px 10px 3px 4px;
+}
+
+#FL_check1_label {
+	padding-top: 4px;
+	width: 447px;
+	font-size: 20px;
+	color: #000000;	
+	font-weight: bold;
+}
+
+#FL_signup_logo {
+	height: 195px;	
+	padding-top: 155px;
+	margin-bottom: 55px;
+}
+
+#FL_signup_text {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#FL_signup_text a h2 {
+	font-family: TradeGothicLtStd_Bold2, Arial, sans-serif;
+	color: black;
+	font-size: 27px;
+	line-height: 37px;
+}
+
+/* -- Tool Tip -- */
+#Mobile_Evergreen #i-rollover-container {
+	float:left;
+	height: 50px;
+	width: 50px;	
+}
+
+#Mobile_Evergreen #infoIcon {
+	width: 38px;
+	height: 38px;
+	position: relative;
+	overflow: visible;
+}
+
+.infoIcon_icon {
+	height: 38px;
+	width: 38px;
+	background: url("http://bbw.imageg.net/graphics/media/bbw/experience/2015/lookbook_mobile/login_info_01.png") left top / cover no-repeat transparent;
+}
+
+#Mobile_Evergreen #infoIcon:focus .infoIcon_icon {
+  background-position: left bottom;
+  outline: none;
+}
+	
+#Mobile_Evergreen #infoIcon .toolTip {
+	z-index: 998;
+	top: -275px;
+	right: 4px;
+	width: 230px;
+	height: 230px;
+	padding: 0;
+	display: none;
+	position: relative;
+	font-family: "trade_gothic_lt_stdregular","TradeGothicLTStd-Light",Arial,sans-serif;
+	color: #666;
+	font-size: 14px;
+	line-height: 20px;
+	height: auto;
+	border: solid 1px #e5e5e5;
+	background-color: white;
+}
+
+#Mobile_Evergreen #infoIcon .toolTip .tooltip-arrow {
+	width: 21px;
+	height: 11px;
+	float: left;
+	margin-left: 11px;
+	line-height: 0px;
+}
+
+#Mobile_Evergreen #infoIcon .toolTip .wrapper {
+	padding: 17px;
+}
+#Mobile_Evergreen #infoIcon .toolTip .corporate {
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #333;
+}
+#Mobile_Evergreen #infoIcon .toolTip .corporateadd {
+	font-size: 14px;
+	padding: 0;
+	line-height: 18px;
+	margin: 0;
+}
+#Mobile_Evergreen #infoIcon .toolTip .withdraw {
+	font-size: 14px;
+	padding: 0;
+	margin: 5px 0 0 1px;
+}
+#Mobile_Evergreen #infoIcon .toolTip .contact {
+	padding: 0;
+	font-size: 14px;
+	line-height: 36px;
+	text-decoration: underline;
+	margin: 0;
+}
+
+#Mobile_Evergreen #infoIcon .toolTip.hover {
+	display: block;
+}
+
+@media (max-width: 768px) {
+  #Mobile_Evergreen {
+    margin-top: 60px;
+  }
+}
