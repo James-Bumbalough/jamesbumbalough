@@ -1,9 +1,9 @@
 class Support 
   include ActiveModel::Validations
  
-  validates_presence_of :email, :sender_name, :phone, :content
+  validates_presence_of :email, :sender_name, :phone, :content, :antispam
   # to deal with form, you must have an id attribute
-  attr_accessor :id, :email, :sender_name, :phone, :content
+  attr_accessor :id, :email, :sender_name, :phone, :content, :antispam
  
   def initialize(attributes = {})
     attributes.each do |key, value|
@@ -21,8 +21,10 @@ class Support
  
   def save
     if self.valid?
-      Notifier.support_notification(self).deliver!
-      return true
+      if @attributes[:antispam] == "4"
+        Notifier.support_notification(self).deliver!
+        return true
+      end
     end
     return false
   end

@@ -580,6 +580,13 @@
                         </div>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <%= f.label "What's 2 + 2?" %>
+                                <%= f.text_field :antispam, placeholder: "What's 2 + 2? (anti-spam)", class: "form-control", id: "antispam", "required data-validation-required-message" => "Please answer the question" %>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>                        
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <%= f.label "Message" %>
                                 <%= f.text_area :content, rows: 5, placeholder: "Message", class: "form-control", id: "message", "required data-validation-required-message" => "Please enter a message." %>
                                 <p class="help-block text-danger"></p>
