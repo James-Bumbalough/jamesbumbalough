@@ -21,7 +21,7 @@ class Support
  
   def save
     if self.valid?
-      if @attributes[:antispam] == "4"
+      if @attributes[:antispam].upcase == "TRUMP"
         Notifier.support_notification(self).deliver!
         return true
       end
