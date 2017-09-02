@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
                     <h3>About Me</h3>
-                    <p>I'm a <span class="ageOutput">30</span> year old Web Developer working out of the Columbus area. I primarily focus on front-end development and creating custom UX, but I have a programming background and would love to work as a full stack developer.</p>
+                    <p>I'm a <span class="ageOutput">30</span> year old Web Developer working out of the Columbus area. I primarily focus on front-end development and creating custom UX, but I have a programming background and am currently working as a full stack developer.</p>
                 </div>
                 <div class="col-lg-4">  
                     <h3>Education</h3>
@@ -39,6 +39,17 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3>Work Experience</h3>
                     <ul id="work-experience" class="clearfix">
+                        <li>
+                            <div class="year pull-left">2016</div>
+                            <div class="description pull-right">
+                                <div class="company-name pull-left">
+                                   OhioHealth
+                                </div>
+                                <div class="position-title pull-right">
+                                    <b>Role</b> | Full Stack Developer
+                                </div>
+                            </div>                      
+                        </li>
                         <li>
                             <div class="year pull-left">2015</div>
                             <div class="description pull-right">
@@ -130,21 +141,21 @@
                             </div>
                         </div>
                         <div class="skill pull-left">
-                           Ruby
+                           PHP
                         </div>
                         <div class="rating pull-right">
                             <div class="icons pull-right">
                                 <div class="percent80 icons-red"></div>
                             </div>
-                        </div>                        
+                        </div>
                         <div class="skill pull-left">
-                           PHP
+                           Ruby
                         </div>
                         <div class="rating pull-right">
                             <div class="icons pull-right">
                                 <div class="percent60 icons-red"></div>
                             </div>
-                        </div>
+                        </div>                        
                         <div class="skill pull-left">
                            Java
                         </div>
@@ -222,6 +233,14 @@
                             </div>
                         </div>                        
                         <div class="skill pull-left">
+                           React / Redux
+                        </div>
+                        <div class="rating pull-right">
+                            <div class="icons pull-right">
+                                <div class="percent80 icons-red"></div>
+                            </div>
+                        </div>                           
+                        <div class="skill pull-left">
                            ASP.net
                         </div>
                         <div class="rating pull-right">
@@ -244,7 +263,7 @@
                             <div class="icons pull-right">
                                 <div class="percent60 icons-red"></div>
                             </div>
-                        </div>                        
+                        </div> 
                     </div>
                 </div>
                 <div class="col-lg-4 min-pad">
@@ -293,8 +312,9 @@
                         <li>Photoshop</li>
                         <li>Flash</li>
                         <li>Git</li>
-                        <li>Tortise SVN</li>
                         <li>Linux</li>
+                        <li>Webpack</li>
+                        <li>Jenkins</li>
                     </ul>
                 </div>
             </div>
@@ -302,6 +322,46 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3>Experience Summary</h3>
                     <div id="bbw-expsum" class="experience-summary contracted">
+                        <div class="experience-summary-header">
+                            <%= image_tag("resume/ohiohealth_logo.png", alt: "OhioHealth Logo", class: "logo img-responsive") %>
+                            <h4>OhioHealth</h4>
+                        </div>
+                        <div class="experience-points">
+                            <div class="expandIcon">
+                                <i class="fa fa-chevron-down"></i> Expand
+                            </div>                            
+                            <ul>
+                                <li>Aided in the redesign and development of the new OhioHealth.com website</li>
+                                <li>Technical lead on the implementation of an online scheduling SPA using React / Redux</li>
+                                <li>Built new Angular apps and customizations to the EPiServer CMS framework</li>
+                                <li>Incorporated a robust testing suite with hundreds of unit and integration tests</li>
+                                <li>Set up an automated build pipeline using Jenkins for local code deployments</li>
+                                <li>Added new features to both the OhioHealth Mobile App and WordPress blog</li>
+                                <li>Created new email templates for internal and external communications</li>
+                                <li>Involved in a number of R&and;D projects to find ways to utilize new technologies in health care</li>
+                            </ul>
+                        </div>
+                        <div class="technologies">
+                            <ul>
+                                <h4>Technologies Used</h4>
+                                <li>ASP.NET</li>
+                                <li>C#</li>
+                                <li>HTML5</li>
+                                <li>CSS</li>
+                                <li>SASS</li>
+                                <li>JavaScript</li>
+                                <li>Angular</li>
+                                <li>React</li>
+                                <li>Redux</li>
+                                <li>NPM</li>
+                                <li>Jest</li>
+                                <li>Jenkins</li>
+                                <li>Webpack</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-summary-footer">
+                    </div>
                         <div class="experience-summary-header">
                             <%= image_tag("resume/bbw_logo.png", alt: "Bath and Body Works Logo", class: "logo img-responsive") %>
                             <h4>Bath and Body Works</h4>
