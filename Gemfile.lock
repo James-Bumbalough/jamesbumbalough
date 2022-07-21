@@ -104,7 +104,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (0.3.48)
+    tzinfo (0.3.61)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
 
